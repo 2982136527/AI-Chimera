@@ -1,10 +1,26 @@
-## Run Locally
+# AI Chimera — 幻兽卡片生成器
 
-**Prerequisites:**  Node.js
+基于 Google Gemini AI 生成方形幻兽卡片。
 
+## 功能
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- 输入描述，AI 生成独特的幻兽卡片
+- 方形卡片格式
+- API Key 仅存储在本地浏览器，不会上传服务器
+
+## 快速开始
+
+**前置要求：** Node.js
+
+```bash
+# 安装依赖
+npm install
+
+# 配置 API Key
+# 在 .env.local 中设置 GEMINI_API_KEY=你的Gemini API密钥
+
+# 启动开发服务器
+npm run dev
+```
+
+访问 [http://localhost:5173](http://localhost:5173)。
